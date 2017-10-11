@@ -1,6 +1,6 @@
 # LEMP Template
 
-This template allocates a virtual machine instance and provisions NGINX, MySQL (mariadb), and PHP onto that instance. 
+This template deploys a virtual machine instance and provisions NGINX, MySQL (mariadb), and PHP onto that instance. 
 
 ## Using This Template
 
