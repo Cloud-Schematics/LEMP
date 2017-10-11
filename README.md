@@ -4,9 +4,7 @@ This template allocates a virtual machine instance and provisions NGINX, MySQL (
 
 ## Using This Template
 
-In Schematics create variables `softlayer_username`, `softlayer_api_key`, `ssh_key`.
-
-If you want to be able to SSH into the virtual machine provide a value for `ssh_key`
+If you want to be able to use an SSH key to access the virtual machine, provide your public SSH key as the value for ssh_key.
 
 ## Variables
 
