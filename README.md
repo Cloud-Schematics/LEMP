@@ -13,6 +13,7 @@ Environments can be used to separate software components into development tiers 
 3. Click **Create** on the containers cluster template. You are taken to a configuration page where you can define data about your environment.
 4. To use the Schematics-generated keypair for the environment, add the following variables: `temp_public_key` and `temp_private_key`. Set `temp_public_key` to `$SCHEMATICS.SSHKEYPUBLIC` and set `temp_private_key` to `$SCHEMATICS.SSHKEYPRIVATE.
 5. If you want to be able to use an SSH key to access the virtual machine, provide your public SSH key as the value for `ssh_key`.
+6. Define values for your remaining variables according to the following table.
 
 ### Variables
 
