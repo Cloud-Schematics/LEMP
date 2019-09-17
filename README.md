@@ -2,7 +2,7 @@
 
 The LEMP template is an IBM Cloud Schematics template that is used to create a virtual server instance (VSI) and configure it with the "LEMP" stack: Linux, NGINX, MySQL (mariadb), and PHP. Schematics uses [Terraform](https://www.terraform.io/) as the infrastructure-as-code engine. With this template, you can create and manage infrastructure as a single unit.
 
-For more information, go to the documentation for [IBM Cloud Schematics](https://cloud.ibm.com/docs/schematics).
+For more information about how to use the template, go to the documentation for [IBM Cloud Schematics](https://cloud.ibm.com/docs/schematics).
 
 ## Costs
 
