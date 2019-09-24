@@ -53,4 +53,4 @@ You can also choose to customize the default settings for your classic infrastru
 
 ## Outputs
 
-When you apply the template and your LEMP resource is successfully provisioned in IBM CLoud, you see the public IP address that is assigned to your virtual server instance in your Schematics log files. You can use the IP address to access your instance from the internet.
+When you apply the template and your LEMP resource is successfully provisioned in IBM Cloud, you see the public IP address that is assigned to your virtual server instance in your Schematics log files. You can use the IP address to access your instance from the internet.
