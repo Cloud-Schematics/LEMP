@@ -52,7 +52,7 @@ variable "network_speed" {
 }
 variable "tags" {
   default = "lemp"
-  description = "Enter descriptive tags that you want to add to your virtual server instance. Labels can help find your resource more easily after it is created in IBM Cloud."
+  description = "Enter descriptive tags that you want to add to your virtual server instance. Tags can help find your resource more easily after it is created in IBM Cloud."
 }
 variable "ssh_user" {
   default = "root"
