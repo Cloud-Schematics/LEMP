@@ -48,7 +48,7 @@ You can also choose to customize the default settings for your classic infrastru
 |ssh_label|Enter a label that you want to assign to your SSH key.|public ssh key - Schematics VM|
 |ssh_notes|Enter a short description that you want to add to your SSH key. ||
 |ssh_user|Enter the default user name that you want to use to log in to the virtual server instance. |root|
-|tags|Enter descriptive tags that you want to add to your virtual server instance. Labels can help find your resource more easily after it is created in IBM Cloud. ||
+|tags|Enter descriptive tags that you want to add to your virtual server instance. Tags can help find your resource more easily after it is created in IBM Cloud. ||
 
 
 ## Outputs
