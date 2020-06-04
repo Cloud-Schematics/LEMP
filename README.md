@@ -6,7 +6,7 @@ Use this template to provision a classic virtual server instance (VSI) in IBM Cl
 - MySQL (mariadb)
 - PHP
 
-To apply the LEMP template in IBM Cloud with IBM Cloud Schematics, you must select the template from the [IBM Cloud catalog](cloud.ibm.com/catalog/content/LEMP), enter the configuration for your classic virtual server instance, and install the template. When you install the template, IBM Cloud Schematics creates a workspace and starts provisioning your resources by using Terraform. You can review logs and your resources from the IBM Cloud Schematics console. For more information, see the [IBM Cloud Schematics documentation](https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics).
+To apply the LEMP template in IBM Cloud with IBM Cloud Schematics, you must select the template from the [IBM Cloud catalog](https://cloud.ibm.com/catalog/content/LEMP), enter the configuration for your classic virtual server instance, and install the template. When you install the template, IBM Cloud Schematics creates a workspace and starts provisioning your resources by using Terraform. You can review logs and your resources from the IBM Cloud Schematics console. For more information, see the [IBM Cloud Schematics documentation](https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics).
 
 For more information about IBM Cloud classic virtual service instances, see [Getting started with virtual servers](https://cloud.ibm.com/docs/vsi?topic=virtual-servers-getting-started-tutorial).
 
