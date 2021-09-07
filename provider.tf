@@ -10,5 +10,3 @@ provider "ibm" {
   iaas_classic_api_key = "${var.iaas_classic_api_key}"
   iaas_classic_timeout = 300
 }
-
-
