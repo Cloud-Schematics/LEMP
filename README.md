@@ -1,4 +1,4 @@
-# LEMP
+# LEMP to provision a Classic Virtual Server instance
 
 Use this template to provision a classic virtual server instance (VSI) in IBM Cloud by using Terraform or IBM Cloud Schematics, and configure the instance with the components of the LEMP stack:
 - Linux
