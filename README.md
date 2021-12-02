@@ -8,7 +8,7 @@ Use this template to provision a classic virtual server instance (VSI) in IBM Cl
 
 To apply the LEMP template in IBM Cloud with IBM Cloud Schematics, you must select the template from the [IBM Cloud catalog](https://cloud.ibm.com/catalog/content/LEMP), enter the configuration for your classic virtual server instance, and install the template. When you install the template, IBM Cloud Schematics creates a workspace and starts provisioning your resources by using Terraform. You can review logs and your resources from the IBM Cloud Schematics console. For more information, see the [IBM Cloud Schematics documentation](https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics).
 
-For more information about IBM Cloud classic virtual service instances, see [Getting started with virtual servers](https://cloud.ibm.com/docs/vsi?topic=virtual-servers-getting-started-tutorial).
+For more information, about IBM Cloud classic virtual service instances, see [Getting started with virtual servers](https://cloud.ibm.com/docs/vsi?topic=virtual-servers-getting-started-tutorial).
 
 ## Costs
 
@@ -43,7 +43,7 @@ You can also choose to customize the default settings for your classic infrastru
 |hostname|Enter a host name for your classic infrastructure virtual server instance. This host name is used with the `domain` to create the full URL for your classic infrastructure virtual server instance.|lemp|
 |memory|Enter the amount of memory in megabytes that you want to allocate to your classic infrastructure virtual server instance. To find available memory sizes, run `ibmcloud sl vs options` and review the values in the **memory** field. |1024|
 |network_speed|Enter the network speed in Mbps for your classic infrastructure virtual server instance. To find available network speeds, run `ibmcloud sl vs options` and review the values in the **nic** field. |100|
-|os_reference_code|Enter the reference code of the operating system that you want to install on your virtual server instance. To see available OS reference codes, log in to the [IBM Cloud Classic infrastructure API](https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getVhdImportSoftwareDescriptions.json?objectMask=referenceCode).|CENTOS_LATEST_64|
+|os_reference_code|Enter the reference code of the operating system that you want to install on your virtual server instance. To see available OS reference codes, log in to the [IBM Cloud Classic infrastructure API](https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getVhdImportSoftwareDescriptions.json?objectMask=referenceCode).|CENTOS_7_64|
 |private_network_only|Decide if you want to connect your classic infrastructure virtual server instance to a private VLAN only. Enter `true` to connect it to a private VLAN only, and `false` to connect it to a public and a private VLAN. |false|
 |ssh_label|Enter a label that you want to assign to your SSH key.|public ssh key - Schematics VM|
 |ssh_notes|Enter a short description that you want to add to your SSH key. ||
