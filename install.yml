@@ -6,7 +6,7 @@ write_files:
         listen 80;
         listen [::]:80;
 
-        root /var/www/html;
+        root /usr/share/nginx/html;
         index index.php index.html index.htm;
 
         server_name localhost;
